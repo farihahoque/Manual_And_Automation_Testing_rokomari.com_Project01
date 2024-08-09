@@ -1,2 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/User/qanew/Batch25WebAutomationPOM-main/project_01_rokomari.com"><classes><class name="Testcases.AddToCart"><methods><include name="TestAddBookToCart"/></methods></class><class name="Testcases.CartIcon"><methods><include name="TestClickToCartIconandGoToShippingPage"/><include name="TestDelete"/><include name="TestMultipleProductDelete"/><include name="TestAddBook"/></methods></class><class name="Testcases.FilterCatagories"><methods><include name="FilterCatagories"/></methods></class><class name="Testcases.ProvideShippingInformation"><methods><include name="TestWithCashOnDeliveryPaymentSystem"/><include name="TestWithMobileWallet"/><include name="TestwithCardPay"/><include name="TestIfCheckBoxIsClicked"/></methods></class><class name="Testcases.SelectHumayunAhmed"><methods><include name="hovertoHumayunAhmed"/></methods></class><class name="Testcases.SelectWriter"><methods><include name="GotoWriterSection"/></methods></class><class name="Testcases.SignUpUsingGoogle"><methods><include name="GoogleButtonIsPresent"/><include name="LoginOrSignUpButtonIsPresent"/><include name="DifferentPageOpenByPressingGoogleButton"/><include name="EmailorPhoneCanbeUsedtoSignUp"/><include name="ValidEmailcanbeUsedAsInput"/><include name="ErrorMsgifNotRegistered"/><include name="CreateAnAccountIsClickableornot"/><include name="TestTryAnotherWay"/><include name="TestErrMsg"/><include name="SignInWithGoogle"/><include name="SignOutButtonIsPresent"/></methods></class></classes></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/User/qanew/Batch25WebAutomationPOM-main/project_01_rokomari.com">
+        <classes>
+            <class name="Testcases.AddToCart">
+                <methods>
+                    <include name="TestAddBookToCart"/>
+                </methods>
+            </class>
+            <class name="Testcases.CartIcon">
+                <methods>
+                    <include name="TestClickToCartIconandGoToShippingPage"/>
+                    <include name="TestDelete"/>
+                    <include name="TestMultipleProductDelete"/>
+                    <include name="TestAddBook"/>
+                </methods>
+            </class>
+            <class name="Testcases.FilterCatagories">
+                <methods>
+                    <include name="FilterCatagories"/>
+                </methods>
+            </class>
+            <class name="Testcases.ProvideShippingInformation">
+                <methods>
+                    <include name="TestWithCashOnDeliveryPaymentSystem"/>
+                    <include name="TestWithMobileWallet"/>
+                    <include name="TestwithCardPay"/>
+                    <include name="TestIfCheckBoxIsClicked"/>
+                </methods>
+            </class>
+            <class name="Testcases.SelectHumayunAhmed">
+                <methods>
+                    <include name="hovertoHumayunAhmed"/>
+                </methods>
+            </class>
+            <class name="Testcases.SelectWriter">
+                <methods>
+                    <include name="GotoWriterSection"/>
+                </methods>
+            </class>
+            <class name="Testcases.SignUpUsingGoogle">
+                <methods>
+                    <include name="GoogleButtonIsPresent"/>
+                    <include name="LoginOrSignUpButtonIsPresent"/>
+                    <include name="DifferentPageOpenByPressingGoogleButton"/>
+                    <include name="EmailorPhoneCanbeUsedtoSignUp"/>
+                    <include name="ValidEmailcanbeUsedAsInput"/>
+                    <include name="ErrorMsgifNotRegistered"/>
+                    <include name="CreateAnAccountIsClickableornot"/>
+                    <include name="TestTryAnotherWay"/>
+                    <include name="TestErrMsg"/>
+                    <include name="SignInWithGoogle"/>
+                    <include name="SignOutButtonIsPresent"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
